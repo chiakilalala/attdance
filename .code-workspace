@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/yilin/yilin-web/todolist/node_modules"
+		}
+	],
+    "settings": {
+				"liveServer.settings.multiRootWorkspaceName": "attdance",
+				"liveServer.settings.port": 5501
+    }
+}

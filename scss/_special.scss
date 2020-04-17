@@ -1,0 +1,9245 @@
+@charset "UTF-8";
+
+/*star 數量*/
+
+.star_container {
+    // max-height: 800px;
+    -webkit-perspective: 120rem;
+    perspective: 120rem;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+.star {
+    -webkit-animation-name: flicker;
+    animation-name: flicker;
+    -webkit-animation-timing-function: ease(in-out-circ);
+    animation-timing-function: ease(in-out-circ);
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background: #ECE0B0;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 1;
+}
+
+
+/*css can do everything*/
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(1) {
+    /*#i是nth-child({變數}) 1*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 91vw;
+    top: 28vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(2) {
+    /*#i是nth-child({變數}) 2*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 42vw;
+    top: 96vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(3) {
+    /*#i是nth-child({變數}) 3*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 91vw;
+    top: 56vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(4) {
+    /*#i是nth-child({變數}) 4*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 76vw;
+    top: 26vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(5) {
+    /*#i是nth-child({變數}) 5*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 71vw;
+    top: 35vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(6) {
+    /*#i是nth-child({變數}) 6*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 75vw;
+    top: 70vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(7) {
+    /*#i是nth-child({變數}) 7*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 54vw;
+    top: 24vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(8) {
+    /*#i是nth-child({變數}) 8*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 100vw;
+    top: 1vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(9) {
+    /*#i是nth-child({變數}) 9*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 97vw;
+    top: 10vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(10) {
+    /*#i是nth-child({變數}) 10*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 89vw;
+    top: 10vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(11) {
+    /*#i是nth-child({變數}) 11*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 52vw;
+    top: 62vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(12) {
+    /*#i是nth-child({變數}) 12*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 47vw;
+    top: 19vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(13) {
+    /*#i是nth-child({變數}) 13*/
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 80vw;
+    top: 9vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(14) {
+    /*#i是nth-child({變數}) 14*/
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 90vw;
+    top: 24vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(15) {
+    /*#i是nth-child({變數}) 15*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 36vw;
+    top: 59vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(16) {
+    /*#i是nth-child({變數}) 16*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 59vw;
+    top: 73vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(17) {
+    /*#i是nth-child({變數}) 17*/
+    -webkit-animation-delay: 0.85714s;
+    animation-delay: 0.85714s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 38vw;
+    top: 64vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(18) {
+    /*#i是nth-child({變數}) 18*/
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 34vw;
+    top: 35vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(19) {
+    /*#i是nth-child({變數}) 19*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 32vw;
+    top: 78vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(20) {
+    /*#i是nth-child({變數}) 20*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 45vw;
+    top: 66vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(21) {
+    /*#i是nth-child({變數}) 21*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 27vw;
+    top: 24vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(22) {
+    /*#i是nth-child({變數}) 22*/
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 73vw;
+    top: 50vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(23) {
+    /*#i是nth-child({變數}) 23*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 57vw;
+    top: 11vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(24) {
+    /*#i是nth-child({變數}) 24*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 54vw;
+    top: 61vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(25) {
+    /*#i是nth-child({變數}) 25*/
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 49vw;
+    top: 13vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(26) {
+    /*#i是nth-child({變數}) 26*/
+    -webkit-animation-delay: 2.25s;
+    animation-delay: 2.25s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 12vw;
+    top: 85vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(27) {
+    /*#i是nth-child({變數}) 27*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 90vw;
+    top: 7vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(28) {
+    /*#i是nth-child({變數}) 28*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 73vw;
+    top: 19vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(29) {
+    /*#i是nth-child({變數}) 29*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 71vw;
+    top: 47vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(30) {
+    /*#i是nth-child({變數}) 30*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 41vw;
+    top: 35vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(31) {
+    /*#i是nth-child({變數}) 31*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 70vw;
+    top: 53vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(32) {
+    /*#i是nth-child({變數}) 32*/
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 92vw;
+    top: 95vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(33) {
+    /*#i是nth-child({變數}) 33*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 73vw;
+    top: 57vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(34) {
+    /*#i是nth-child({變數}) 34*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 32vw;
+    top: 14vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(35) {
+    /*#i是nth-child({變數}) 35*/
+    -webkit-animation-delay: 0.28571s;
+    animation-delay: 0.28571s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 92vw;
+    top: 72vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(36) {
+    /*#i是nth-child({變數}) 36*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 12vw;
+    top: 85vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(37) {
+    /*#i是nth-child({變數}) 37*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 56vw;
+    top: 55vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(38) {
+    /*#i是nth-child({變數}) 38*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 70vw;
+    top: 3vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(39) {
+    /*#i是nth-child({變數}) 39*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 54vw;
+    top: 69vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(40) {
+    /*#i是nth-child({變數}) 40*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 3vw;
+    top: 46vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(41) {
+    /*#i是nth-child({變數}) 41*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 51vw;
+    top: 59vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(42) {
+    /*#i是nth-child({變數}) 42*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 15vw;
+    top: 86vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(43) {
+    /*#i是nth-child({變數}) 43*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 2vw;
+    top: 96vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(44) {
+    /*#i是nth-child({變數}) 44*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 79vw;
+    top: 62vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(45) {
+    /*#i是nth-child({變數}) 45*/
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 23vw;
+    top: 23vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(46) {
+    /*#i是nth-child({變數}) 46*/
+    -webkit-animation-delay: 0.125s;
+    animation-delay: 0.125s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 41vw;
+    top: 52vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(47) {
+    /*#i是nth-child({變數}) 47*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 32vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(48) {
+    /*#i是nth-child({變數}) 48*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 56vw;
+    top: 81vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(49) {
+    /*#i是nth-child({變數}) 49*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 50vw;
+    top: 69vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(50) {
+    /*#i是nth-child({變數}) 50*/
+    -webkit-animation-delay: 3.33333s;
+    animation-delay: 3.33333s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 75vw;
+    top: 61vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(51) {
+    /*#i是nth-child({變數}) 51*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 80vw;
+    top: 53vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(52) {
+    /*#i是nth-child({變數}) 52*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 48vw;
+    top: 71vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(53) {
+    /*#i是nth-child({變數}) 53*/
+    -webkit-animation-delay: 1.33333s;
+    animation-delay: 1.33333s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 20vw;
+    top: 57vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(54) {
+    /*#i是nth-child({變數}) 54*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 17vw;
+    top: 90vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(55) {
+    /*#i是nth-child({變數}) 55*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 11vw;
+    top: 47vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(56) {
+    /*#i是nth-child({變數}) 56*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 76vw;
+    top: 99vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(57) {
+    /*#i是nth-child({變數}) 57*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 24vw;
+    top: 81vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(58) {
+    /*#i是nth-child({變數}) 58*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 45vw;
+    top: 99vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(59) {
+    /*#i是nth-child({變數}) 59*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 7vw;
+    top: 7vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(60) {
+    /*#i是nth-child({變數}) 60*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 29vw;
+    top: 31vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(61) {
+    /*#i是nth-child({變數}) 61*/
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 9vw;
+    top: 71vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(62) {
+    /*#i是nth-child({變數}) 62*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 11vw;
+    top: 69vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(63) {
+    /*#i是nth-child({變數}) 63*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 85vw;
+    top: 29vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(64) {
+    /*#i是nth-child({變數}) 64*/
+    -webkit-animation-delay: 0.875s;
+    animation-delay: 0.875s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 31vw;
+    top: 27vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(65) {
+    /*#i是nth-child({變數}) 65*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 33vw;
+    top: 72vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(66) {
+    /*#i是nth-child({變數}) 66*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 78vw;
+    top: 45vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(67) {
+    /*#i是nth-child({變數}) 67*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 97vw;
+    top: 75vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(68) {
+    /*#i是nth-child({變數}) 68*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 82vw;
+    top: 51vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(69) {
+    /*#i是nth-child({變數}) 69*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 74vw;
+    top: 55vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(70) {
+    /*#i是nth-child({變數}) 70*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 86vw;
+    top: 60vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(71) {
+    /*#i是nth-child({變數}) 71*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 41vw;
+    top: 58vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(72) {
+    /*#i是nth-child({變數}) 72*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 53vw;
+    top: 94vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(73) {
+    /*#i是nth-child({變數}) 73*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 17vw;
+    top: 43vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(74) {
+    /*#i是nth-child({變數}) 74*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 100vw;
+    top: 8vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(75) {
+    /*#i是nth-child({變數}) 75*/
+    -webkit-animation-delay: 0.85714s;
+    animation-delay: 0.85714s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 23vw;
+    top: 39vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(76) {
+    /*#i是nth-child({變數}) 76*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 45vw;
+    top: 75vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(77) {
+    /*#i是nth-child({變數}) 77*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 42vw;
+    top: 54vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(78) {
+    /*#i是nth-child({變數}) 78*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 8vw;
+    top: 57vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(79) {
+    /*#i是nth-child({變數}) 79*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 22vw;
+    top: 78vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(80) {
+    /*#i是nth-child({變數}) 80*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 5vw;
+    top: 99vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(81) {
+    /*#i是nth-child({變數}) 81*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 64vw;
+    top: 10vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(82) {
+    /*#i是nth-child({變數}) 82*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 34vw;
+    top: 30vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(83) {
+    /*#i是nth-child({變數}) 83*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 9vw;
+    top: 78vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(84) {
+    /*#i是nth-child({變數}) 84*/
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 86vw;
+    top: 42vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(85) {
+    /*#i是nth-child({變數}) 85*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 32vw;
+    top: 22vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(86) {
+    /*#i是nth-child({變數}) 86*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 63vw;
+    top: 50vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(87) {
+    /*#i是nth-child({變數}) 87*/
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 91vw;
+    top: 95vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(88) {
+    /*#i是nth-child({變數}) 88*/
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 64vw;
+    top: 49vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(89) {
+    /*#i是nth-child({變數}) 89*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 19vw;
+    top: 83vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(90) {
+    /*#i是nth-child({變數}) 90*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 37vw;
+    top: 2vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(91) {
+    /*#i是nth-child({變數}) 91*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 75vw;
+    top: 44vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(92) {
+    /*#i是nth-child({變數}) 92*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 80vw;
+    top: 47vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(93) {
+    /*#i是nth-child({變數}) 93*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 52vw;
+    top: 95vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(94) {
+    /*#i是nth-child({變數}) 94*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 69vw;
+    top: 20vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(95) {
+    /*#i是nth-child({變數}) 95*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 5vw;
+    top: 2vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(96) {
+    /*#i是nth-child({變數}) 96*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 62vw;
+    top: 93vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(97) {
+    /*#i是nth-child({變數}) 97*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 96vw;
+    top: 66vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(98) {
+    /*#i是nth-child({變數}) 98*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 25vw;
+    top: 8vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(99) {
+    /*#i是nth-child({變數}) 99*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 96vw;
+    top: 3vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(100) {
+    /*#i是nth-child({變數}) 100*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 48vw;
+    top: 70vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(101) {
+    /*#i是nth-child({變數}) 101*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 18vw;
+    top: 46vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(102) {
+    /*#i是nth-child({變數}) 102*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 87vw;
+    top: 77vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(103) {
+    /*#i是nth-child({變數}) 103*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 98vw;
+    top: 95vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(104) {
+    /*#i是nth-child({變數}) 104*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 65vw;
+    top: 35vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(105) {
+    /*#i是nth-child({變數}) 105*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 1vw;
+    top: 49vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(106) {
+    /*#i是nth-child({變數}) 106*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 43vw;
+    top: 63vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(107) {
+    /*#i是nth-child({變數}) 107*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 99vw;
+    top: 25vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(108) {
+    /*#i是nth-child({變數}) 108*/
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 74vw;
+    top: 17vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(109) {
+    /*#i是nth-child({變數}) 109*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 77vw;
+    top: 25vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(110) {
+    /*#i是nth-child({變數}) 110*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 53vw;
+    top: 31vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(111) {
+    /*#i是nth-child({變數}) 111*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 44vw;
+    top: 9vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(112) {
+    /*#i是nth-child({變數}) 112*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 36vw;
+    top: 61vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(113) {
+    /*#i是nth-child({變數}) 113*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 41vw;
+    top: 58vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(114) {
+    /*#i是nth-child({變數}) 114*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 82vw;
+    top: 54vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(115) {
+    /*#i是nth-child({變數}) 115*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 100vw;
+    top: 36vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(116) {
+    /*#i是nth-child({變數}) 116*/
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 96vw;
+    top: 76vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(117) {
+    /*#i是nth-child({變數}) 117*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 100vw;
+    top: 81vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(118) {
+    /*#i是nth-child({變數}) 118*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 94vw;
+    top: 27vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(119) {
+    /*#i是nth-child({變數}) 119*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 24vw;
+    top: 39vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(120) {
+    /*#i是nth-child({變數}) 120*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 3vw;
+    top: 100vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(121) {
+    /*#i是nth-child({變數}) 121*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 35vw;
+    top: 91vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(122) {
+    /*#i是nth-child({變數}) 122*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 83vw;
+    top: 23vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(123) {
+    /*#i是nth-child({變數}) 123*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 36vw;
+    top: 49vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(124) {
+    /*#i是nth-child({變數}) 124*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 99vw;
+    top: 88vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(125) {
+    /*#i是nth-child({變數}) 125*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 46vw;
+    top: 91vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(126) {
+    /*#i是nth-child({變數}) 126*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 18vw;
+    top: 87vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(127) {
+    /*#i是nth-child({變數}) 127*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 21vw;
+    top: 61vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(128) {
+    /*#i是nth-child({變數}) 128*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 6vw;
+    top: 58vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(129) {
+    /*#i是nth-child({變數}) 129*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 86vw;
+    top: 68vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(130) {
+    /*#i是nth-child({變數}) 130*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 45vw;
+    top: 48vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(131) {
+    /*#i是nth-child({變數}) 131*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 25vw;
+    top: 3vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(132) {
+    /*#i是nth-child({變數}) 132*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 59vw;
+    top: 53vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(133) {
+    /*#i是nth-child({變數}) 133*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 28vw;
+    top: 87vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(134) {
+    /*#i是nth-child({變數}) 134*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 17vw;
+    top: 70vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(135) {
+    /*#i是nth-child({變數}) 135*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 96vw;
+    top: 47vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(136) {
+    /*#i是nth-child({變數}) 136*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 81vw;
+    top: 93vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(137) {
+    /*#i是nth-child({變數}) 137*/
+    -webkit-animation-delay: 3.33333s;
+    animation-delay: 3.33333s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 50vw;
+    top: 46vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(138) {
+    /*#i是nth-child({變數}) 138*/
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 17vw;
+    top: 47vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(139) {
+    /*#i是nth-child({變數}) 139*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 34vw;
+    top: 46vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(140) {
+    /*#i是nth-child({變數}) 140*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 41vw;
+    top: 25vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(141) {
+    /*#i是nth-child({變數}) 141*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 90vw;
+    top: 8vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(142) {
+    /*#i是nth-child({變數}) 142*/
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 25vw;
+    top: 37vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(143) {
+    /*#i是nth-child({變數}) 143*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 97vw;
+    top: 54vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(144) {
+    /*#i是nth-child({變數}) 144*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 26vw;
+    top: 84vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(145) {
+    /*#i是nth-child({變數}) 145*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 20vw;
+    top: 62vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(146) {
+    /*#i是nth-child({變數}) 146*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 14vw;
+    top: 11vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(147) {
+    /*#i是nth-child({變數}) 147*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 3vw;
+    top: 67vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(148) {
+    /*#i是nth-child({變數}) 148*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 2vw;
+    top: 97vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(149) {
+    /*#i是nth-child({變數}) 149*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 23vw;
+    top: 65vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(150) {
+    /*#i是nth-child({變數}) 150*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 100vw;
+    top: 91vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(151) {
+    /*#i是nth-child({變數}) 151*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 60vw;
+    top: 91vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(152) {
+    /*#i是nth-child({變數}) 152*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 98vw;
+    top: 82vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(153) {
+    /*#i是nth-child({變數}) 153*/
+    -webkit-animation-delay: 3.33333s;
+    animation-delay: 3.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 33vw;
+    top: 58vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(154) {
+    /*#i是nth-child({變數}) 154*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 30vw;
+    top: 50vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(155) {
+    /*#i是nth-child({變數}) 155*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 32vw;
+    top: 6vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(156) {
+    /*#i是nth-child({變數}) 156*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 47vw;
+    top: 73vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(157) {
+    /*#i是nth-child({變數}) 157*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 36vw;
+    top: 14vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(158) {
+    /*#i是nth-child({變數}) 158*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 18vw;
+    top: 19vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(159) {
+    /*#i是nth-child({變數}) 159*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 85vw;
+    top: 22vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(160) {
+    /*#i是nth-child({變數}) 160*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 71vw;
+    top: 41vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(161) {
+    /*#i是nth-child({變數}) 161*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 85vw;
+    top: 41vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(162) {
+    /*#i是nth-child({變數}) 162*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 64vw;
+    top: 6vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(163) {
+    /*#i是nth-child({變數}) 163*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 76vw;
+    top: 8vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(164) {
+    /*#i是nth-child({變數}) 164*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 50vw;
+    top: 16vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(165) {
+    /*#i是nth-child({變數}) 165*/
+    -webkit-animation-delay: 0.375s;
+    animation-delay: 0.375s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 68vw;
+    top: 35vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(166) {
+    /*#i是nth-child({變數}) 166*/
+    -webkit-animation-delay: 0.85714s;
+    animation-delay: 0.85714s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 63vw;
+    top: 29vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(167) {
+    /*#i是nth-child({變數}) 167*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 14vw;
+    top: 38vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(168) {
+    /*#i是nth-child({變數}) 168*/
+    -webkit-animation-delay: 2.25s;
+    animation-delay: 2.25s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 66vw;
+    top: 57vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(169) {
+    /*#i是nth-child({變數}) 169*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 64vw;
+    top: 39vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(170) {
+    /*#i是nth-child({變數}) 170*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 11vw;
+    top: 43vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(171) {
+    /*#i是nth-child({變數}) 171*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 99vw;
+    top: 95vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(172) {
+    /*#i是nth-child({變數}) 172*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 90vw;
+    top: 94vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(173) {
+    /*#i是nth-child({變數}) 173*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 78vw;
+    top: 52vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(174) {
+    /*#i是nth-child({變數}) 174*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 52vw;
+    top: 12vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(175) {
+    /*#i是nth-child({變數}) 175*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 41vw;
+    top: 80vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(176) {
+    /*#i是nth-child({變數}) 176*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 29vw;
+    top: 3vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(177) {
+    /*#i是nth-child({變數}) 177*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 30vw;
+    top: 72vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(178) {
+    /*#i是nth-child({變數}) 178*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 15vw;
+    top: 25vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(179) {
+    /*#i是nth-child({變數}) 179*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 62vw;
+    top: 81vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(180) {
+    /*#i是nth-child({變數}) 180*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 32vw;
+    top: 13vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(181) {
+    /*#i是nth-child({變數}) 181*/
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 11vw;
+    top: 80vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(182) {
+    /*#i是nth-child({變數}) 182*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 63vw;
+    top: 38vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(183) {
+    /*#i是nth-child({變數}) 183*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 59vw;
+    top: 35vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(184) {
+    /*#i是nth-child({變數}) 184*/
+    -webkit-animation-delay: 3.33333s;
+    animation-delay: 3.33333s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 46vw;
+    top: 10vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(185) {
+    /*#i是nth-child({變數}) 185*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 58vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(186) {
+    /*#i是nth-child({變數}) 186*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 65vw;
+    top: 3vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(187) {
+    /*#i是nth-child({變數}) 187*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 27vw;
+    top: 56vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(188) {
+    /*#i是nth-child({變數}) 188*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 3vw;
+    top: 94vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(189) {
+    /*#i是nth-child({變數}) 189*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 67vw;
+    top: 59vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(190) {
+    /*#i是nth-child({變數}) 190*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 19vw;
+    top: 95vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(191) {
+    /*#i是nth-child({變數}) 191*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 22vw;
+    top: 32vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(192) {
+    /*#i是nth-child({變數}) 192*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 97vw;
+    top: 12vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(193) {
+    /*#i是nth-child({變數}) 193*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 49vw;
+    top: 95vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(194) {
+    /*#i是nth-child({變數}) 194*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 25vw;
+    top: 60vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(195) {
+    /*#i是nth-child({變數}) 195*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 1vw;
+    top: 69vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(196) {
+    /*#i是nth-child({變數}) 196*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 66vw;
+    top: 20vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(197) {
+    /*#i是nth-child({變數}) 197*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 3vw;
+    top: 39vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(198) {
+    /*#i是nth-child({變數}) 198*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 17vw;
+    top: 73vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(199) {
+    /*#i是nth-child({變數}) 199*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 26vw;
+    top: 62vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(200) {
+    /*#i是nth-child({變數}) 200*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 59vw;
+    top: 33vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(201) {
+    /*#i是nth-child({變數}) 201*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 63vw;
+    top: 78vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(202) {
+    /*#i是nth-child({變數}) 202*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 42vw;
+    top: 60vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(203) {
+    /*#i是nth-child({變數}) 203*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 88vw;
+    top: 12vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(204) {
+    /*#i是nth-child({變數}) 204*/
+    -webkit-animation-delay: 0.375s;
+    animation-delay: 0.375s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 6vw;
+    top: 84vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(205) {
+    /*#i是nth-child({變數}) 205*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 63vw;
+    top: 54vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(206) {
+    /*#i是nth-child({變數}) 206*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 49vw;
+    top: 97vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(207) {
+    /*#i是nth-child({變數}) 207*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 52vw;
+    top: 24vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(208) {
+    /*#i是nth-child({變數}) 208*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 69vw;
+    top: 98vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(209) {
+    /*#i是nth-child({變數}) 209*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 21vw;
+    top: 74vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(210) {
+    /*#i是nth-child({變數}) 210*/
+    -webkit-animation-delay: 0.375s;
+    animation-delay: 0.375s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 42vw;
+    top: 7vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(211) {
+    /*#i是nth-child({變數}) 211*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 95vw;
+    top: 12vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(212) {
+    /*#i是nth-child({變數}) 212*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 99vw;
+    top: 42vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(213) {
+    /*#i是nth-child({變數}) 213*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 14vw;
+    top: 54vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(214) {
+    /*#i是nth-child({變數}) 214*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 18vw;
+    top: 64vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(215) {
+    /*#i是nth-child({變數}) 215*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 96vw;
+    top: 35vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(216) {
+    /*#i是nth-child({變數}) 216*/
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 3vw;
+    top: 25vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(217) {
+    /*#i是nth-child({變數}) 217*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 39vw;
+    top: 95vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(218) {
+    /*#i是nth-child({變數}) 218*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 67vw;
+    top: 100vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(219) {
+    /*#i是nth-child({變數}) 219*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 17vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(220) {
+    /*#i是nth-child({變數}) 220*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 48vw;
+    top: 11vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(221) {
+    /*#i是nth-child({變數}) 221*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 1vw;
+    top: 66vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(222) {
+    /*#i是nth-child({變數}) 222*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 10vw;
+    top: 58vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(223) {
+    /*#i是nth-child({變數}) 223*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 51vw;
+    top: 62vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(224) {
+    /*#i是nth-child({變數}) 224*/
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 99vw;
+    top: 59vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(225) {
+    /*#i是nth-child({變數}) 225*/
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 85vw;
+    top: 28vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(226) {
+    /*#i是nth-child({變數}) 226*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 50vw;
+    top: 77vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(227) {
+    /*#i是nth-child({變數}) 227*/
+    -webkit-animation-delay: 1.14286s;
+    animation-delay: 1.14286s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 58vw;
+    top: 88vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(228) {
+    /*#i是nth-child({變數}) 228*/
+    -webkit-animation-delay: 1.14286s;
+    animation-delay: 1.14286s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 29vw;
+    top: 19vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(229) {
+    /*#i是nth-child({變數}) 229*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 45vw;
+    top: 85vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(230) {
+    /*#i是nth-child({變數}) 230*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 97vw;
+    top: 7vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(231) {
+    /*#i是nth-child({變數}) 231*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 4vw;
+    top: 99vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(232) {
+    /*#i是nth-child({變數}) 232*/
+    -webkit-animation-delay: 0.28571s;
+    animation-delay: 0.28571s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 63vw;
+    top: 34vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(233) {
+    /*#i是nth-child({變數}) 233*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 57vw;
+    top: 64vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(234) {
+    /*#i是nth-child({變數}) 234*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 21vw;
+    top: 19vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(235) {
+    /*#i是nth-child({變數}) 235*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 93vw;
+    top: 41vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(236) {
+    /*#i是nth-child({變數}) 236*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 16vw;
+    top: 87vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(237) {
+    /*#i是nth-child({變數}) 237*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 14vw;
+    top: 11vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(238) {
+    /*#i是nth-child({變數}) 238*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 59vw;
+    top: 89vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(239) {
+    /*#i是nth-child({變數}) 239*/
+    -webkit-animation-delay: 0.125s;
+    animation-delay: 0.125s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 82vw;
+    top: 21vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(240) {
+    /*#i是nth-child({變數}) 240*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 6vw;
+    top: 77vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(241) {
+    /*#i是nth-child({變數}) 241*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 84vw;
+    top: 9vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(242) {
+    /*#i是nth-child({變數}) 242*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 95vw;
+    top: 35vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(243) {
+    /*#i是nth-child({變數}) 243*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 55vw;
+    top: 25vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(244) {
+    /*#i是nth-child({變數}) 244*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 23vw;
+    top: 23vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(245) {
+    /*#i是nth-child({變數}) 245*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 45vw;
+    top: 49vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(246) {
+    /*#i是nth-child({變數}) 246*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 82vw;
+    top: 17vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(247) {
+    /*#i是nth-child({變數}) 247*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 96vw;
+    top: 53vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(248) {
+    /*#i是nth-child({變數}) 248*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 36vw;
+    top: 2vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(249) {
+    /*#i是nth-child({變數}) 249*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 9vw;
+    top: 34vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(250) {
+    /*#i是nth-child({變數}) 250*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 26vw;
+    top: 1vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(251) {
+    /*#i是nth-child({變數}) 251*/
+    -webkit-animation-delay: 1.33333s;
+    animation-delay: 1.33333s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 34vw;
+    top: 74vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(252) {
+    /*#i是nth-child({變數}) 252*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 8vw;
+    top: 81vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(253) {
+    /*#i是nth-child({變數}) 253*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 59vw;
+    top: 80vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(254) {
+    /*#i是nth-child({變數}) 254*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 93vw;
+    top: 67vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(255) {
+    /*#i是nth-child({變數}) 255*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 2vw;
+    top: 27vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(256) {
+    /*#i是nth-child({變數}) 256*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 37vw;
+    top: 7vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(257) {
+    /*#i是nth-child({變數}) 257*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 86vw;
+    top: 16vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(258) {
+    /*#i是nth-child({變數}) 258*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 18vw;
+    top: 22vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(259) {
+    /*#i是nth-child({變數}) 259*/
+    -webkit-animation-delay: 1.28571s;
+    animation-delay: 1.28571s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 13vw;
+    top: 62vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(260) {
+    /*#i是nth-child({變數}) 260*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 37vw;
+    top: 74vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(261) {
+    /*#i是nth-child({變數}) 261*/
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 40vw;
+    top: 56vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(262) {
+    /*#i是nth-child({變數}) 262*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 38vw;
+    top: 69vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(263) {
+    /*#i是nth-child({變數}) 263*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 61vw;
+    top: 65vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(264) {
+    /*#i是nth-child({變數}) 264*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 29vw;
+    top: 18vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(265) {
+    /*#i是nth-child({變數}) 265*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 94vw;
+    top: 83vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(266) {
+    /*#i是nth-child({變數}) 266*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 44vw;
+    top: 86vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(267) {
+    /*#i是nth-child({變數}) 267*/
+    -webkit-animation-delay: 1.28571s;
+    animation-delay: 1.28571s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 19vw;
+    top: 11vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(268) {
+    /*#i是nth-child({變數}) 268*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 91vw;
+    top: 72vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(269) {
+    /*#i是nth-child({變數}) 269*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 63vw;
+    top: 96vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(270) {
+    /*#i是nth-child({變數}) 270*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 71vw;
+    top: 83vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(271) {
+    /*#i是nth-child({變數}) 271*/
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 23vw;
+    top: 24vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(272) {
+    /*#i是nth-child({變數}) 272*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 37vw;
+    top: 83vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(273) {
+    /*#i是nth-child({變數}) 273*/
+    -webkit-animation-delay: 0.375s;
+    animation-delay: 0.375s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 17vw;
+    top: 9vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(274) {
+    /*#i是nth-child({變數}) 274*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 1vw;
+    top: 68vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(275) {
+    /*#i是nth-child({變數}) 275*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 30vw;
+    top: 66vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(276) {
+    /*#i是nth-child({變數}) 276*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 79vw;
+    top: 50vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(277) {
+    /*#i是nth-child({變數}) 277*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 83vw;
+    top: 22vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(278) {
+    /*#i是nth-child({變數}) 278*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 70vw;
+    top: 25vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(279) {
+    /*#i是nth-child({變數}) 279*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 1vw;
+    top: 28vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(280) {
+    /*#i是nth-child({變數}) 280*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 57vw;
+    top: 33vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(281) {
+    /*#i是nth-child({變數}) 281*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 36vw;
+    top: 100vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(282) {
+    /*#i是nth-child({變數}) 282*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 37vw;
+    top: 64vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(283) {
+    /*#i是nth-child({變數}) 283*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 58vw;
+    top: 83vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(284) {
+    /*#i是nth-child({變數}) 284*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 35vw;
+    top: 7vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(285) {
+    /*#i是nth-child({變數}) 285*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 38vw;
+    top: 75vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(286) {
+    /*#i是nth-child({變數}) 286*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 20vw;
+    top: 58vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(287) {
+    /*#i是nth-child({變數}) 287*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 21vw;
+    top: 7vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(288) {
+    /*#i是nth-child({變數}) 288*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 14vw;
+    top: 32vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(289) {
+    /*#i是nth-child({變數}) 289*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 59vw;
+    top: 76vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(290) {
+    /*#i是nth-child({變數}) 290*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 17vw;
+    top: 41vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(291) {
+    /*#i是nth-child({變數}) 291*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 39vw;
+    top: 77vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(292) {
+    /*#i是nth-child({變數}) 292*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 47vw;
+    top: 2vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(293) {
+    /*#i是nth-child({變數}) 293*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 21vw;
+    top: 62vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(294) {
+    /*#i是nth-child({變數}) 294*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 22vw;
+    top: 69vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(295) {
+    /*#i是nth-child({變數}) 295*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 41vw;
+    top: 99vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(296) {
+    /*#i是nth-child({變數}) 296*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 17vw;
+    top: 49vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(297) {
+    /*#i是nth-child({變數}) 297*/
+    -webkit-animation-delay: 1.28571s;
+    animation-delay: 1.28571s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 1vw;
+    top: 26vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(298) {
+    /*#i是nth-child({變數}) 298*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 48vw;
+    top: 54vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(299) {
+    /*#i是nth-child({變數}) 299*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 71vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(300) {
+    /*#i是nth-child({變數}) 300*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 8vw;
+    top: 84vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(301) {
+    /*#i是nth-child({變數}) 301*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 81vw;
+    top: 8vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(302) {
+    /*#i是nth-child({變數}) 302*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 14vw;
+    top: 68vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(303) {
+    /*#i是nth-child({變數}) 303*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 92vw;
+    top: 83vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(304) {
+    /*#i是nth-child({變數}) 304*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 75vw;
+    top: 31vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(305) {
+    /*#i是nth-child({變數}) 305*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 26vw;
+    top: 88vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(306) {
+    /*#i是nth-child({變數}) 306*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 97vw;
+    top: 26vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(307) {
+    /*#i是nth-child({變數}) 307*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 62vw;
+    top: 89vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(308) {
+    /*#i是nth-child({變數}) 308*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 97vw;
+    top: 93vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(309) {
+    /*#i是nth-child({變數}) 309*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 14vw;
+    top: 89vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(310) {
+    /*#i是nth-child({變數}) 310*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 80vw;
+    top: 56vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(311) {
+    /*#i是nth-child({變數}) 311*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 39vw;
+    top: 67vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(312) {
+    /*#i是nth-child({變數}) 312*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 38vw;
+    top: 59vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(313) {
+    /*#i是nth-child({變數}) 313*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 4vw;
+    top: 86vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(314) {
+    /*#i是nth-child({變數}) 314*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 74vw;
+    top: 63vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(315) {
+    /*#i是nth-child({變數}) 315*/
+    -webkit-animation-delay: 2.25s;
+    animation-delay: 2.25s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 19vw;
+    top: 100vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(316) {
+    /*#i是nth-child({變數}) 316*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 30vw;
+    top: 17vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(317) {
+    /*#i是nth-child({變數}) 317*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 25vw;
+    top: 55vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(318) {
+    /*#i是nth-child({變數}) 318*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 72vw;
+    top: 99vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(319) {
+    /*#i是nth-child({變數}) 319*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 18vw;
+    top: 97vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(320) {
+    /*#i是nth-child({變數}) 320*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 53vw;
+    top: 88vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(321) {
+    /*#i是nth-child({變數}) 321*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 51vw;
+    top: 53vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(322) {
+    /*#i是nth-child({變數}) 322*/
+    -webkit-animation-delay: 2.25s;
+    animation-delay: 2.25s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 33vw;
+    top: 54vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(323) {
+    /*#i是nth-child({變數}) 323*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 94vw;
+    top: 13vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(324) {
+    /*#i是nth-child({變數}) 324*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 75vw;
+    top: 91vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(325) {
+    /*#i是nth-child({變數}) 325*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 32vw;
+    top: 96vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(326) {
+    /*#i是nth-child({變數}) 326*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 93vw;
+    top: 3vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(327) {
+    /*#i是nth-child({變數}) 327*/
+    -webkit-animation-delay: 0.85714s;
+    animation-delay: 0.85714s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 88vw;
+    top: 97vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(328) {
+    /*#i是nth-child({變數}) 328*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 62vw;
+    top: 10vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(329) {
+    /*#i是nth-child({變數}) 329*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 68vw;
+    top: 82vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(330) {
+    /*#i是nth-child({變數}) 330*/
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 91vw;
+    top: 32vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(331) {
+    /*#i是nth-child({變數}) 331*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 47vw;
+    top: 42vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(332) {
+    /*#i是nth-child({變數}) 332*/
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 4vw;
+    top: 97vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(333) {
+    /*#i是nth-child({變數}) 333*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 8vw;
+    top: 36vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(334) {
+    /*#i是nth-child({變數}) 334*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 66vw;
+    top: 13vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(335) {
+    /*#i是nth-child({變數}) 335*/
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 33vw;
+    top: 84vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(336) {
+    /*#i是nth-child({變數}) 336*/
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 15vw;
+    top: 83vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(337) {
+    /*#i是nth-child({變數}) 337*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 13vw;
+    top: 67vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(338) {
+    /*#i是nth-child({變數}) 338*/
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 33vw;
+    top: 72vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(339) {
+    /*#i是nth-child({變數}) 339*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 27vw;
+    top: 85vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(340) {
+    /*#i是nth-child({變數}) 340*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 51vw;
+    top: 91vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(341) {
+    /*#i是nth-child({變數}) 341*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 73vw;
+    top: 10vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(342) {
+    /*#i是nth-child({變數}) 342*/
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 2vw;
+    top: 57vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(343) {
+    /*#i是nth-child({變數}) 343*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 1vw;
+    top: 68vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(344) {
+    /*#i是nth-child({變數}) 344*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 52vw;
+    top: 17vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(345) {
+    /*#i是nth-child({變數}) 345*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 1vw;
+    top: 32vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(346) {
+    /*#i是nth-child({變數}) 346*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 36vw;
+    top: 76vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(347) {
+    /*#i是nth-child({變數}) 347*/
+    -webkit-animation-delay: 1.28571s;
+    animation-delay: 1.28571s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 22vw;
+    top: 63vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(348) {
+    /*#i是nth-child({變數}) 348*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 14vw;
+    top: 78vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(349) {
+    /*#i是nth-child({變數}) 349*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 26vw;
+    top: 61vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(350) {
+    /*#i是nth-child({變數}) 350*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 71vw;
+    top: 66vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(351) {
+    /*#i是nth-child({變數}) 351*/
+    -webkit-animation-delay: 0.125s;
+    animation-delay: 0.125s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 19vw;
+    top: 26vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(352) {
+    /*#i是nth-child({變數}) 352*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 57vw;
+    top: 28vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(353) {
+    /*#i是nth-child({變數}) 353*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 4vw;
+    top: 54vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(354) {
+    /*#i是nth-child({變數}) 354*/
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 36vw;
+    top: 93vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(355) {
+    /*#i是nth-child({變數}) 355*/
+    -webkit-animation-delay: 0.11111s;
+    animation-delay: 0.11111s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 22vw;
+    top: 51vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(356) {
+    /*#i是nth-child({變數}) 356*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 72vw;
+    top: 35vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(357) {
+    /*#i是nth-child({變數}) 357*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 95vw;
+    top: 36vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(358) {
+    /*#i是nth-child({變數}) 358*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 40vw;
+    top: 17vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(359) {
+    /*#i是nth-child({變數}) 359*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 73vw;
+    top: 71vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(360) {
+    /*#i是nth-child({變數}) 360*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 35vw;
+    top: 46vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(361) {
+    /*#i是nth-child({變數}) 361*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 80vw;
+    top: 1vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(362) {
+    /*#i是nth-child({變數}) 362*/
+    -webkit-animation-delay: 2.25s;
+    animation-delay: 2.25s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 19vw;
+    top: 84vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(363) {
+    /*#i是nth-child({變數}) 363*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 95vw;
+    top: 71vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(364) {
+    /*#i是nth-child({變數}) 364*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 52vw;
+    top: 72vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(365) {
+    /*#i是nth-child({變數}) 365*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 48vw;
+    top: 87vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(366) {
+    /*#i是nth-child({變數}) 366*/
+    -webkit-animation-delay: 1.14286s;
+    animation-delay: 1.14286s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 54vw;
+    top: 65vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(367) {
+    /*#i是nth-child({變數}) 367*/
+    -webkit-animation-delay: 1.14286s;
+    animation-delay: 1.14286s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 36vw;
+    top: 46vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(368) {
+    /*#i是nth-child({變數}) 368*/
+    -webkit-animation-delay: 0.875s;
+    animation-delay: 0.875s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 95vw;
+    top: 47vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(369) {
+    /*#i是nth-child({變數}) 369*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 17vw;
+    top: 90vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(370) {
+    /*#i是nth-child({變數}) 370*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 62vw;
+    top: 65vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(371) {
+    /*#i是nth-child({變數}) 371*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 56vw;
+    top: 65vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(372) {
+    /*#i是nth-child({變數}) 372*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 62vw;
+    top: 58vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(373) {
+    /*#i是nth-child({變數}) 373*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 63vw;
+    top: 82vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(374) {
+    /*#i是nth-child({變數}) 374*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 97vw;
+    top: 81vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(375) {
+    /*#i是nth-child({變數}) 375*/
+    -webkit-animation-delay: 1.33333s;
+    animation-delay: 1.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 4vw;
+    top: 75vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(376) {
+    /*#i是nth-child({變數}) 376*/
+    -webkit-animation-delay: 1.11111s;
+    animation-delay: 1.11111s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 80vw;
+    top: 77vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(377) {
+    /*#i是nth-child({變數}) 377*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 95vw;
+    top: 13vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(378) {
+    /*#i是nth-child({變數}) 378*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 51vw;
+    top: 57vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(379) {
+    /*#i是nth-child({變數}) 379*/
+    -webkit-animation-delay: 0.55556s;
+    animation-delay: 0.55556s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 95vw;
+    top: 90vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(380) {
+    /*#i是nth-child({變數}) 380*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 49vw;
+    top: 21vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(381) {
+    /*#i是nth-child({變數}) 381*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 33vw;
+    top: 27vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(382) {
+    /*#i是nth-child({變數}) 382*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 44vw;
+    top: 4vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(383) {
+    /*#i是nth-child({變數}) 383*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 5vw;
+    top: 67vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(384) {
+    /*#i是nth-child({變數}) 384*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 50vw;
+    top: 40vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(385) {
+    /*#i是nth-child({變數}) 385*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 51vw;
+    top: 55vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(386) {
+    /*#i是nth-child({變數}) 386*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 78vw;
+    top: 80vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(387) {
+    /*#i是nth-child({變數}) 387*/
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 33vw;
+    top: 45vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(388) {
+    /*#i是nth-child({變數}) 388*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 9vw;
+    top: 55vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(389) {
+    /*#i是nth-child({變數}) 389*/
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 91vw;
+    top: 38vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(390) {
+    /*#i是nth-child({變數}) 390*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 40vw;
+    top: 87vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(391) {
+    /*#i是nth-child({變數}) 391*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 86vw;
+    top: 49vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(392) {
+    /*#i是nth-child({變數}) 392*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 92vw;
+    top: 14vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(393) {
+    /*#i是nth-child({變數}) 393*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 8vw;
+    top: 12vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(394) {
+    /*#i是nth-child({變數}) 394*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 64vw;
+    top: 54vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(395) {
+    /*#i是nth-child({變數}) 395*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 40vw;
+    top: 42vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(396) {
+    /*#i是nth-child({變數}) 396*/
+    -webkit-animation-delay: 0.28571s;
+    animation-delay: 0.28571s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 37vw;
+    top: 62vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(397) {
+    /*#i是nth-child({變數}) 397*/
+    -webkit-animation-delay: 0.125s;
+    animation-delay: 0.125s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 82vw;
+    top: 3vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(398) {
+    /*#i是nth-child({變數}) 398*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 68vw;
+    top: 73vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(399) {
+    /*#i是nth-child({變數}) 399*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 73vw;
+    top: 86vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(400) {
+    /*#i是nth-child({變數}) 400*/
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 27vw;
+    top: 62vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(401) {
+    /*#i是nth-child({變數}) 401*/
+    -webkit-animation-delay: 1.33333s;
+    animation-delay: 1.33333s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 21vw;
+    top: 17vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(402) {
+    /*#i是nth-child({變數}) 402*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 80vw;
+    top: 32vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(403) {
+    /*#i是nth-child({變數}) 403*/
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 21vw;
+    top: 84vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(404) {
+    /*#i是nth-child({變數}) 404*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 88vw;
+    top: 16vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(405) {
+    /*#i是nth-child({變數}) 405*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 95vw;
+    top: 80vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(406) {
+    /*#i是nth-child({變數}) 406*/
+    -webkit-animation-delay: 0.875s;
+    animation-delay: 0.875s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 67vw;
+    top: 67vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(407) {
+    /*#i是nth-child({變數}) 407*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 74vw;
+    top: 77vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(408) {
+    /*#i是nth-child({變數}) 408*/
+    -webkit-animation-delay: 1.42857s;
+    animation-delay: 1.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 33vw;
+    top: 82vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(409) {
+    /*#i是nth-child({變數}) 409*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 62vw;
+    top: 58vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(410) {
+    /*#i是nth-child({變數}) 410*/
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 25vw;
+    top: 53vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(411) {
+    /*#i是nth-child({變數}) 411*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 28vw;
+    top: 3vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(412) {
+    /*#i是nth-child({變數}) 412*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 58vw;
+    top: 93vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(413) {
+    /*#i是nth-child({變數}) 413*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 6vw;
+    top: 34vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(414) {
+    /*#i是nth-child({變數}) 414*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 36vw;
+    top: 27vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(415) {
+    /*#i是nth-child({變數}) 415*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 3vw;
+    top: 33vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(416) {
+    /*#i是nth-child({變數}) 416*/
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 33vw;
+    top: 83vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(417) {
+    /*#i是nth-child({變數}) 417*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 44vw;
+    top: 79vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(418) {
+    /*#i是nth-child({變數}) 418*/
+    -webkit-animation-delay: 0.44444s;
+    animation-delay: 0.44444s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 71vw;
+    top: 56vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(419) {
+    /*#i是nth-child({變數}) 419*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 95vw;
+    top: 42vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(420) {
+    /*#i是nth-child({變數}) 420*/
+    -webkit-animation-delay: 0.55556s;
+    animation-delay: 0.55556s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 98vw;
+    top: 28vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(421) {
+    /*#i是nth-child({變數}) 421*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 93vw;
+    top: 73vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(422) {
+    /*#i是nth-child({變數}) 422*/
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 21vw;
+    top: 38vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(423) {
+    /*#i是nth-child({變數}) 423*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 12vw;
+    top: 85vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(424) {
+    /*#i是nth-child({變數}) 424*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 84vw;
+    top: 61vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(425) {
+    /*#i是nth-child({變數}) 425*/
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 5vw;
+    top: 53vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(426) {
+    /*#i是nth-child({變數}) 426*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 98vw;
+    top: 35vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(427) {
+    /*#i是nth-child({變數}) 427*/
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 24vw;
+    top: 59vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(428) {
+    /*#i是nth-child({變數}) 428*/
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 84vw;
+    top: 10vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(429) {
+    /*#i是nth-child({變數}) 429*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 98vw;
+    top: 100vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(430) {
+    /*#i是nth-child({變數}) 430*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 95vw;
+    top: 16vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(431) {
+    /*#i是nth-child({變數}) 431*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 77vw;
+    top: 46vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(432) {
+    /*#i是nth-child({變數}) 432*/
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 80vw;
+    top: 2vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(433) {
+    /*#i是nth-child({變數}) 433*/
+    -webkit-animation-delay: 1.66667s;
+    animation-delay: 1.66667s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 14vw;
+    top: 42vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(434) {
+    /*#i是nth-child({變數}) 434*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 74vw;
+    top: 32vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(435) {
+    /*#i是nth-child({變數}) 435*/
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 22vw;
+    top: 62vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(436) {
+    /*#i是nth-child({變數}) 436*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 32vw;
+    top: 97vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(437) {
+    /*#i是nth-child({變數}) 437*/
+    -webkit-animation-delay: 2.33333s;
+    animation-delay: 2.33333s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 89vw;
+    top: 48vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(438) {
+    /*#i是nth-child({變數}) 438*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 40vw;
+    top: 37vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(439) {
+    /*#i是nth-child({變數}) 439*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 7vw;
+    top: 49vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(440) {
+    /*#i是nth-child({變數}) 440*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 70vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(441) {
+    /*#i是nth-child({變數}) 441*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 34vw;
+    top: 50vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(442) {
+    /*#i是nth-child({變數}) 442*/
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 91vw;
+    top: 20vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(443) {
+    /*#i是nth-child({變數}) 443*/
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 91vw;
+    top: 65vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(444) {
+    /*#i是nth-child({變數}) 444*/
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 43vw;
+    top: 50vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(445) {
+    /*#i是nth-child({變數}) 445*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 39vw;
+    top: 65vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(446) {
+    /*#i是nth-child({變數}) 446*/
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 16vw;
+    top: 42vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(447) {
+    /*#i是nth-child({變數}) 447*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 12vw;
+    top: 100vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(448) {
+    /*#i是nth-child({變數}) 448*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 96vw;
+    top: 96vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(449) {
+    /*#i是nth-child({變數}) 449*/
+    -webkit-animation-delay: 0.71429s;
+    animation-delay: 0.71429s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 93vw;
+    top: 37vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(450) {
+    /*#i是nth-child({變數}) 450*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 70vw;
+    top: 86vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(451) {
+    /*#i是nth-child({變數}) 451*/
+    -webkit-animation-delay: 0.77778s;
+    animation-delay: 0.77778s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 54vw;
+    top: 48vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(452) {
+    /*#i是nth-child({變數}) 452*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 35vw;
+    top: 93vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(453) {
+    /*#i是nth-child({變數}) 453*/
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 69vw;
+    top: 35vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(454) {
+    /*#i是nth-child({變數}) 454*/
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 70vw;
+    top: 51vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(455) {
+    /*#i是nth-child({變數}) 455*/
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 80vw;
+    top: 6vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(456) {
+    /*#i是nth-child({變數}) 456*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 92vw;
+    top: 76vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(457) {
+    /*#i是nth-child({變數}) 457*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 12vw;
+    top: 58vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(458) {
+    /*#i是nth-child({變數}) 458*/
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-duration: 1.33333s;
+    animation-duration: 1.33333s;
+    left: 29vw;
+    top: 52vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(459) {
+    /*#i是nth-child({變數}) 459*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 1vw;
+    top: 36vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(460) {
+    /*#i是nth-child({變數}) 460*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 75vw;
+    top: 23vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(461) {
+    /*#i是nth-child({變數}) 461*/
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 34vw;
+    top: 14vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(462) {
+    /*#i是nth-child({變數}) 462*/
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 11vw;
+    top: 77vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(463) {
+    /*#i是nth-child({變數}) 463*/
+    -webkit-animation-delay: 1.14286s;
+    animation-delay: 1.14286s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 16vw;
+    top: 13vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(464) {
+    /*#i是nth-child({變數}) 464*/
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-duration: 1.66667s;
+    animation-duration: 1.66667s;
+    left: 5vw;
+    top: 23vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(465) {
+    /*#i是nth-child({變數}) 465*/
+    -webkit-animation-delay: 1.16667s;
+    animation-delay: 1.16667s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 91vw;
+    top: 11vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(466) {
+    /*#i是nth-child({變數}) 466*/
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 75vw;
+    top: 79vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(467) {
+    /*#i是nth-child({變數}) 467*/
+    -webkit-animation-delay: 0.28571s;
+    animation-delay: 0.28571s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 8vw;
+    top: 99vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(468) {
+    /*#i是nth-child({變數}) 468*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 55vw;
+    top: 31vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(469) {
+    /*#i是nth-child({變數}) 469*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 42vw;
+    top: 19vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(470) {
+    /*#i是nth-child({變數}) 470*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    left: 90vw;
+    top: 25vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(471) {
+    /*#i是nth-child({變數}) 471*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 27vw;
+    top: 41vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(472) {
+    /*#i是nth-child({變數}) 472*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 63vw;
+    top: 68vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(473) {
+    /*#i是nth-child({變數}) 473*/
+    -webkit-animation-delay: 0.22222s;
+    animation-delay: 0.22222s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 43vw;
+    top: 13vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(474) {
+    /*#i是nth-child({變數}) 474*/
+    -webkit-animation-delay: 1.125s;
+    animation-delay: 1.125s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 33vw;
+    top: 67vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(475) {
+    /*#i是nth-child({變數}) 475*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 88vw;
+    top: 47vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(476) {
+    /*#i是nth-child({變數}) 476*/
+    -webkit-animation-delay: 0.875s;
+    animation-delay: 0.875s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 96vw;
+    top: 44vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(477) {
+    /*#i是nth-child({變數}) 477*/
+    -webkit-animation-delay: 0.77778s;
+    animation-delay: 0.77778s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 67vw;
+    top: 13vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(478) {
+    /*#i是nth-child({變數}) 478*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 2vw;
+    top: 3vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(479) {
+    /*#i是nth-child({變數}) 479*/
+    -webkit-animation-delay: 0.77778s;
+    animation-delay: 0.77778s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 38vw;
+    top: 91vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(480) {
+    /*#i是nth-child({變數}) 480*/
+    -webkit-animation-delay: 2.66667s;
+    animation-delay: 2.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 91vw;
+    top: 58vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(481) {
+    /*#i是nth-child({變數}) 481*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.33333s;
+    animation-duration: 0.33333s;
+    left: 52vw;
+    top: 19vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(482) {
+    /*#i是nth-child({變數}) 482*/
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 74vw;
+    top: 81vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(483) {
+    /*#i是nth-child({變數}) 483*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 92vw;
+    top: 51vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(484) {
+    /*#i是nth-child({變數}) 484*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 91vw;
+    top: 74vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(485) {
+    /*#i是nth-child({變數}) 485*/
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 62vw;
+    top: 27vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(486) {
+    /*#i是nth-child({變數}) 486*/
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    left: 45vw;
+    top: 71vh;
+    height: 0.05rem;
+    width: 0.05rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(487) {
+    /*#i是nth-child({變數}) 487*/
+    -webkit-animation-delay: 0.88889s;
+    animation-delay: 0.88889s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 89vw;
+    top: 35vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(488) {
+    /*#i是nth-child({變數}) 488*/
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 72vw;
+    top: 45vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(489) {
+    /*#i是nth-child({變數}) 489*/
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 44vw;
+    top: 19vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(490) {
+    /*#i是nth-child({變數}) 490*/
+    -webkit-animation-delay: 0.625s;
+    animation-delay: 0.625s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 51vw;
+    top: 43vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(491) {
+    /*#i是nth-child({變數}) 491*/
+    -webkit-animation-delay: 1.33333s;
+    animation-delay: 1.33333s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    left: 29vw;
+    top: 87vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(492) {
+    /*#i是nth-child({變數}) 492*/
+    -webkit-animation-delay: 0.66667s;
+    animation-delay: 0.66667s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 96vw;
+    top: 5vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(493) {
+    /*#i是nth-child({變數}) 493*/
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 58vw;
+    top: 25vh;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(494) {
+    /*#i是nth-child({變數}) 494*/
+    -webkit-animation-delay: 0.57143s;
+    animation-delay: 0.57143s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 44vw;
+    top: 44vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(495) {
+    /*#i是nth-child({變數}) 495*/
+    -webkit-animation-delay: 0.83333s;
+    animation-delay: 0.83333s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 14vw;
+    top: 70vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(496) {
+    /*#i是nth-child({變數}) 496*/
+    -webkit-animation-delay: 0.875s;
+    animation-delay: 0.875s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 6vw;
+    top: 11vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(497) {
+    /*#i是nth-child({變數}) 497*/
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 98vw;
+    top: 93vh;
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(498) {
+    /*#i是nth-child({變數}) 498*/
+    -webkit-animation-delay: 0.42857s;
+    animation-delay: 0.42857s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 37vw;
+    top: 50vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(499) {
+    /*#i是nth-child({變數}) 499*/
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 71vw;
+    top: 92vh;
+    height: 0.15rem;
+    width: 0.15rem;
+}
+
+
+/*star 做迴圈*/
+
+
+/*$size 是大小數量 5次變動下乘以0.05rem*/
+
+.star:nth-child(500) {
+    /*#i是nth-child({變數}) 500*/
+    -webkit-animation-delay: 0.14286s;
+    animation-delay: 0.14286s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    left: 73vw;
+    top: 26vh;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+@-webkit-keyframes flicker {
+    to {
+        opacity: 0.25;
+    }
+}
+
+@keyframes flicker {
+    to {
+        opacity: 0.25;
+    }
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(1) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 3vw;
+    top: 61vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(2) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 59vw;
+    top: 48vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(3) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 59vw;
+    top: 48vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(4) {
+    -webkit-animation-delay: 7s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 34vw;
+    top: 50vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(5) {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 66vw;
+    top: 75vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(6) {
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 26vw;
+    top: 39vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(7) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    left: 76vw;
+    top: 23vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(8) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 0.66667s;
+    animation-duration: 0.66667s;
+    left: 25vw;
+    top: 26vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(9) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    left: 45vw;
+    top: 53vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(10) {
+    -webkit-animation-delay: 14s;
+    animation-delay: 14s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    left: 53vw;
+    top: 70vh;
+}
+
+
+/*meteor 做迴圈*/
+
+.meteor:nth-child(11) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    left: 73vw;
+    top: 61vh;
+}
+
+@-webkit-keyframes shower {
+    0% {
+        -webkit-transform: rotate(30deg) scaleY(0);
+        transform: rotate(30deg) scaleY(0);
+        opacity: 0;
+    }
+    65% {
+        -webkit-transform: rotate(30deg) scaleY(1);
+        transform: rotate(30deg) scaleY(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(30deg) scaleY(1) translateY(500%);
+        transform: rotate(30deg) scaleY(1) translateY(500%);
+        opacity: 0;
+    }
+}
+
+@keyframes shower {
+    0% {
+        -webkit-transform: rotate(30deg) scaleY(0);
+        transform: rotate(30deg) scaleY(0);
+        opacity: 0;
+    }
+    65% {
+        -webkit-transform: rotate(30deg) scaleY(1);
+        transform: rotate(30deg) scaleY(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(30deg) scaleY(1) translateY(500%);
+        transform: rotate(30deg) scaleY(1) translateY(500%);
+        opacity: 0;
+    }
+}
+
+.meteor {
+    border: 2px solid transparent;
+    border-bottom: 60px solid #ECE0B0;
+    position: absolute;
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: shower 0.3s;
+    animation: shower 0.3s;
+    opacity: 0;
+    -webkit-transform-style: 3d;
+    transform-style: 3d;
+}
+
+.meteor:after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background: #ECE0B0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0 0 15px 0 #ECE0B0;
+    box-shadow: 0 0 15px 0 #ECE0B0;
+}
