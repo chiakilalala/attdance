@@ -12,7 +12,7 @@
 
 
 <body>
-    <div id="app">
+    <div id="app" v-cloak>
         <!-- start -->
         <div class="star_container">
 
@@ -400,6 +400,16 @@
             <div class="meteor"></div>
             <div class="meteor"></div>
             <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
+            <div class="meteor"></div>
         </div>
         <div class="jumbotron">
 
@@ -408,87 +418,68 @@
         </div>
         <div class="container bg-purple">
             <div class="search-input mb-2">
-                <input type="text" placeholder="Search..." v-model="keyword">
                 <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search..." v-model="keyword">
+
 
             </div>
 
-            <table class="table table-striped">
+            <table class="table table-striped table-hover ">
                 <thead class="thead-dark ">
                     <tr>
-                        <th scope=" col ">Rollno</th>
-                        <th scope="col" class="click">島民
+                        <th scope=" col " class="">no.</th>
+                        <th scope=" col " class="face"></th>
+                        <th scope="col" class="click" @click="sort('name','asc')">姓名
 
-                            <span class="icon">
-                                <i class="fas fa-angle-up text-success"></i>
+                            <span class="icon" :class="{ 'inverse' : reverse}">
+                                <i class="fas fa-angle-up" ></i>
                               </span>
                         </th>
-                        <th scope="col " class="click">體溫
-                            <span class="icon ">
-                                <i class="fas fa-angle-up text-success"></i>
+                        <th scope="col " class="click t-large" @click="sort('age','asc')">體溫
+                            <span class="icon " :class="{ 'inverse' : reverse}">
+                                <i class="fas fa-angle-up" ></i>
                               </span>
                         </th>
-                        <th scope="col ">Attendance</th>
+                        <th scope="col ">出缺席</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody name="fade-list">
 
-                    <tr v-for="(item,index) in filterSorf" :key="item.id">
-                        <th scope="row">{{item.index+1}}</th>
+                    <tr v-for="(item,index) in filteredRows.slice(pageStart, pageStart + countOfPage)" :key="item.id">
+                        <td scope="row" class="small">{{item.index+1}}</td>
+                        <td class="small"><img src="./images/girl-face.svg" alt="" srcset=""></td>
                         <td>{{item.name}}</td>
                         <td>{{item.age}}</td>
-                        <td><button class="btn btn-info btn-lg"></button></td>
+                        <!-- <td>{{item.exist}}</td> -->
+                        <td><button :class="[ item.exist ? 'btn btn-lg btn-info' : 'btn btn-lg btn-danger']" @click="isExist(item)"></button></td>
                     </tr>
 
 
                 </tbody>
             </table>
-            <div class="nofound" v-if="filterSorf.length <= 0">
-                <span>No results found.</span>
+            <div class="pagination">
+                <ul class="mt-2 pagination pagination-sm">
+                    <li class="page-item " :class="{disabled :(currPage === 1)}" @click.prevent="setPage(currPage-1)"><a href="#" class="page-link"><i class="fa  fa-angle-double-right"></i></a> </li>
+                    <li v-for="n in totalPage" :class="{'active':(currPage ===(n))}" @click.prevent="setPage(n)"><a href="#" class="page-link">{{n}}</a>
+                        <li class="page-item" :class="{disabled :(currPage === 1)}" @click.prevent="setPage(currPage+1)"><a href="#" class="page-link"><i class="fa fa-angle-double-left"></i></a> </li>
+                        <!-- <li :class="{'disabled': (currPage === 1)}" 
+                        @click.prevent="setPage(currPage-1)"><a href="#">Prev</a></li>
+                    <li v-for="n in totalPage" 
+                    :class="{'active': (currPage === (n))}" @click.prevent="setPage(n)"><a href="#">{{n}}</a></li>
+                    <li :class="{'disabled': (currPage === totalPage)}" @click.prevent="setPage(currPage+1)"><a href="#">Next</a></li> -->
+                </ul>
+            </div>
+            <div class="nofound" v-if="filteredRows.length <= 0">
+                <span>查無此人 </span>
             </div>
         </div>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/lodash/4/lodash.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
-
-</html>
-<script>
-    var app = new Vue({
-
-        el: '#app ',
-        data: {
-            data: [],
-            exist: false,
-            keyword: ''
-        },
-        methods: {
-
-        },
-        computed: {
-            filterSorf() {
-                return this.data.filter((item) => {
-                    return item.name.toLowerCase().indexOf(this.keyword.toLowerCase()) !== -1;
-                })
-            }
-        },
-        created() {
-            const vm = this;
-            const api = "https://www.json-generator.com/api/json/get/cknklDscqG?indent=2";
-            axios.get(api).then(res => {
-                vm.data = res.data;
-                console.log(this.data);
-
-
-
-            })
-        }
-
-
-
-
-    })
-</script>
+<script src="js/app.js"></script>
 
 
 </html>
